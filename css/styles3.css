@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+#header{
+    margin:center;
+    width: 200px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.lineHr{
+    margin-top: 8px;
+}
+body {
+    background: #ffffff ;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1520px;
+    background: #ffffff;
+    z-index: 10;
+
+}
+
+.navegacion ul {
+    list-style: none;
+}
+.menuGeneral{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1520px;
+    background: #ffffff;
+    z-index: 10;
+}
+.menuGeneral >li {
+    position: relative;
+    display: inline-block;
+}
+
+.menuGeneral > li > a{
+    display: block;
+    padding: 34px 20px 37px 0px;
+    color: #01633B;
+    text-decoration: none;
+}
+
+.menuGeneral li a:hover{
+    color: #5eb18f;
+    transition: all .3s;
+}
+
+.submenu{
+    
+    position: absolute;
+     background: #ffffff;
+     width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s; 
+    box-shadow: 5px 5px 10px rgb(237, 237, 237);
+    border-top: 3px solid #01633B;
+    
+}
+.submenu li a{
+    display: block;
+    padding: 10px;
+    color: #01633B ;
+    text-decoration: none;   
+   
+}
+
+.menuGeneral li:hover .submenu{
+    visibility: visible;
+    opacity: 2;
+} 
+
+hr{   
+    position: absolute;
+    top: 88px;
+} 
+
+.fa-solid{
+    float: right;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+div#CalDiario {
+    position: absolute;
+    left: 250px;
+    margin-top: 60px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+div#CalFinde {
+    position: absolute;
+    right: 250px;
+    margin-top: 60px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+div#CalMed {
+    position: absolute;
+    left: 250px;
+    margin-top: 690px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+div#CalOd {
+    position: absolute;
+    right: 250px;
+    margin-top: 690px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+div#CalMaes {
+    position: absolute;
+    left: 600px;
+    margin-top: 1400px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+.color1{
+    justify-content: center;
+    margin-top: 2100px;
+    color: #ffff;
+}
+
+
+.p1{
+    margin-top: 2100px;
+    left: 0;
+    width: 600px;
+    height: 140px;
+    background: #034732;
+    color: #ffff;
+}
+.p2{
+    margin-top: 2100px;
+    width: 300px;
+    height: 140px;
+    background: #034732;
+    color: #ffff;
+}
+.p3{
+    margin-top: 2100px;
+    width: 625px;
+    height: 140px;
+    background: #034732;
+    color: #ffff;
+}
+
+.foot{
+    text-align: center;
+
+}
+.foot22{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #01633B;
+}

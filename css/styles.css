@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+#header{
+    margin:center;
+    width: 200px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.lineHr{
+    margin-top: 8px;
+}
+body {
+    background: #ffffff ;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1520px;
+    background: #ffffff;
+    z-index: 10;
+
+}
+
+.navegacion ul {
+    list-style: none;
+}
+.menuGeneral{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1520px;
+    background: #ffffff;
+    z-index: 10;
+}
+.menuGeneral >li {
+    position: relative;
+    display: inline-block;
+}
+
+.menuGeneral > li > a{
+    display: block;
+    padding: 34px 20px 37px 0px;
+    color: #01633B;
+    text-decoration: none;
+}
+
+.menuGeneral li a:hover{
+    color: #5eb18f;
+    transition: all .3s;
+}
+
+.submenu{
+    
+    position: absolute;
+     background: #ffffff;
+     width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s; 
+    box-shadow: 5px 5px 10px rgb(237, 237, 237);
+    border-top: 3px solid #01633B;
+    
+}
+.submenu li a{
+    display: block;
+    padding: 10px;
+    color: #01633B ;
+    text-decoration: none;   
+   
+}
+
+.menuGeneral li:hover .submenu{
+    visibility: visible;
+    opacity: 2;
+} 
+
+hr{   
+    position: absolute;
+    top: 88px;
+} 
+
+.fa-solid{
+    float: right;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+div#PantallaGeneral {
+    float: right;
+    margin-top: 45px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+   object-fit: cover;
+
+}
+div#FotoMujer {
+    position: absolute;
+    right: 250px;
+    margin-top: 60px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+    object-fit: cover;
+
+}
+div#logo{
+    position: absolute;
+    float: left;
+    left: 230px;
+    margin-top: 90px;
+    margin-left: 195px;
+    width: 140px;
+    height: 180px;
+    background-color: #ffffff;
+
+}
+.footerAbajo{
+    position: absolute;
+    bottom: 0;
+}
+
+div#letras{
+    margin: 60px;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+
+}
+.letra1 {
+    position: absolute;
+    float:left;
+    left: 360px;
+    margin-top: 270px;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #3333;
+    text-align: center;
+}
+
+.letras2{
+    position: absolute;
+    float:left;
+    left: 290px;
+    margin-top: 325px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #666 ;
+    opacity: 70%;
+    text-align: center;
+    line-height: 160%;
+}
+
+.letra3{
+    position: absolute;
+    float:left;
+    left: 360px;
+    margin-top: 390px;
+    font-size: 26px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #3333;
+    text-align: center;
+}
+
+.boton{
+    position: absolute;
+    float:left;
+    left: 280px;
+    margin-top: 435px;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 100 px;
+    margin-left: 95px;
+}
+
+#boton img:hover{
+    transform: scale(1.15);
+}
+
+ #boton img{
+    transition: all 300ms;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    float:left;
+    left: 300px;
+    margin-top: 750px;
+}
+
+.colNom{
+    position: absolute;
+    float:left;
+    left: 300px;
+    margin-top: 800px;
+}
+
+.colCorr{
+    position: absolute;
+    float:left;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: start;
+    width: 500;
+    font-size: 14px;
+    padding: 16;
+    font-weight: 400;
+    left: 750px;
+    margin-top: 800px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    margin-right: 16px;
+}
+
+.colText{
+    position: absolute;
+    float:left;
+    left: 300px;
+    margin-top: 820px;
+}
+.btn-Enviar{
+    position: absolute;
+    float:right;
+    right: 210px;
+    margin-top: 990px;
+    justify-content: center;
+    color:#ffffff;
+    background-color: #01633B;
+    width: 100px;
+    height: 100 px;
+}
+
+.ImgMeso {
+    margin-top: 550px;
+}
+.letracampus {
+    position: absolute;
+    float:left;
+    left: 600px;
+    margin-top: -450px;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color:rgb(237, 237, 237);
+    text-align: center;
+}
+.letragal{
+    position: absolute;
+    float:left;
+    left: 720px;
+    margin-top: -300px;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color:rgb(237, 237, 237);
+    text-align: center;
+}
+.letragal2{
+    position: absolute;
+    float:left;
+    left: 660px;
+    margin-top: -240px;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color:rgb(237, 237, 237);
+    text-align: center;
+}
+.letragal3{
+    position: absolute;
+    float:left;
+    left: 720px;
+    margin-top: -180px;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color:rgb(237, 237, 237);
+    text-align: center;
+}
+
+
+
